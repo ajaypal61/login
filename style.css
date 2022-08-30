@@ -7,13 +7,15 @@ body{
 }
 
 h1{
+    color: white;
+    /* justify-content: center; */
+    text-align: center;
     margin: 0;
 }
 
-.aj{
-    color: black;
-}
+
 .iform{
+    background-color: black;
     color: black;
     display: flex;
     justify-content: center;
@@ -21,6 +23,7 @@ h1{
     height: 100vh;
 }
 .form{
+    /* background-color: #c8c9bf38; */
     width: 360px;
     padding: 4rem 2rem;
     border-radius: 1rem;
@@ -54,14 +57,14 @@ h1{
     left: 1rem;
     top: 1rem;
     padding: 0 .25rem;
-    background-color: white;
+    background-color: #030303;;
     color: #1A73E8;
     font-size:1rem;
     transition: 0.5s;
 }
 .form_button{
     display: block;
-    margin-left: auto;
+    /* margin-left: auto; */
     padding: .75rem 2rem;
     outline: none;
     border: none;
@@ -73,7 +76,7 @@ h1{
     transition: 1s;
 }
 .form_button:hover{
-    box-shadow: 0 10px 36px rgba(39, 37, 37, 0.8);
+    box-shadow: 0 10px 36px rgba(194, 115, 115, 0.897);
 }
 
 .form_input:focus + .form_label{
